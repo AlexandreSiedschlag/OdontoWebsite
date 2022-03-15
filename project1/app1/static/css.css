@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+
+/*INICIO HEADER*/
+    /* INICIO NAVBAR*/
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 10vh;
+        color: gold;
+        border-bottom: solid ;
+        position: sticky;
+        width: 100%;
+        height: 16vh;
+        background-color: #0d0c34;
+        font-size: large;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    nav li {
+    float: left;
+    }
+    nav li a {
+    display: block;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+    nav li a:hover {
+    background-color:gold;
+    color: #252547;
+    cursor: pointer;
+    }
+    nav .logo{
+            width: 140px;
+            height: auto;
+    }
+    /* FIM NAVBAR*/
+/*FIM HEADER*/
+body{
+    background-image:linear-gradient(rgba(5,7,30,0.7), rgba(5,7,30,0.7)), url(Photos/dentista-pinheiros.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+/*INICIO IMAGENS*/
+img{
+    cursor: pointer;
+}
+img:hover{
+    opacity: 0.95;
+}
+/*INICIO IMAGENS*/
+
+/*INICIO POSTER*/
+.poster{
+    
+}
+.poster-div-1{
+
+}
+.poster-div-2{
+    background-image: url(Photos/4.jpg);
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 100%;
+    height: 790px;
+
+}
+
+/*FIM IMAGENS*/
+
+
+/*INICIO LOGO*/
+
+/*FIM LOGO*/
